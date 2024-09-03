@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div style={{ height: '100vh' }}>
       <ReactReader
-        url="https://jasdev-singh-2003.github.io/Epub-Files/PHM.epub"
+        url="https://jasdev-singh-2003.github.io/iRead-Data/project-hail-mary/project-hail-mary.epub"
         location={location}
         locationChanged={(epubcfi) => setLocation(epubcfi)}
       />
